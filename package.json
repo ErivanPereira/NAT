@@ -5,7 +5,7 @@
   "main": "rendezvous.js",
   "scripts": {
     "test": "node rendezvous.js",
-    "start": "node server.js"
+    "start": "node rendezvous.js"
   },
   "author": "",
   "license": "ISC"
