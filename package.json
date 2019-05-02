@@ -4,7 +4,8 @@
   "description": "Node UDP Hole punching =========================",
   "main": "rendezvous.js",
   "scripts": {
-    "test": "node rendezvous.js"
+    "test": "node rendezvous.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC"
