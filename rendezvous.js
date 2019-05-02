@@ -7,8 +7,8 @@ var clients = {};
 
 udp_matchmaker.on('listening', function() {
   var address = udp_matchmaker.address();
-  externalip(function (err, ip) {
-    console.log("IP" + ip); // => 8.8.8.8
+  publicIp.v4().then(ip => {
+    console.log("your public ip address", ip);
   });
   console.log('# listening [%s:%s]', address.address, address.port);
 });
