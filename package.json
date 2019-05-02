@@ -8,5 +8,8 @@
     "start": "node rendezvous.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "public-ip": "^3.1.0"
+  }
 }
