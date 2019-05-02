@@ -1,0 +1,11 @@
+{
+  "name": "upd-hole-punching-master",
+  "version": "1.0.0",
+  "description": "Node UDP Hole punching =========================",
+  "main": "rendezvous.js",
+  "scripts": {
+    "test": "node rendezvous.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
